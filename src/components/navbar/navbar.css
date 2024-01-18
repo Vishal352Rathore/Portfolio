@@ -1,0 +1,41 @@
+.hover-underline-animation {
+    position: relative;
+    text-decoration: none;
+    justify-content: end;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(57, 57, 255);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } 
+
+  .nav-link{
+   color : white !important;
+
+  }
+
+  .nav-link:hover{
+    color: white !important;
+  }
+
+  .navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+.lavishFont {
+  font-family: Lavishly Yours,cursive;
+  font-size: 2.5rem!important;
+}
