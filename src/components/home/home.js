@@ -40,7 +40,7 @@ function Home(props) {
 
           <div className="d-flex mt-4 justify-content-center justify-content-md-start">
             <a
-              href="https://www.instagram.com/____mango____man/"
+              href="https://www.instagram.com/vixal_rathore/"
               target="_blank"
               rel="noreferrer"
             >
@@ -52,7 +52,7 @@ function Home(props) {
                 alt=""
               />
             </a>
-            <a href="https://github.com/santosh214" target="_blank"
+            <a href="https://github.com/Vishal352Rathore" target="_blank"
               rel="noreferrer"
             >
               <img
@@ -63,11 +63,11 @@ function Home(props) {
                 alt=""
               />
             </a>
+            
             <a
-              href="https://www.linkedin.com/in/santosh-singhh/"
+              href="https://www.linkedin.com/in/vishal-rathore-229648149/"
               target="_blank"
               rel="noreferrer"
-
             >
               <img
                 src={linkedin}
