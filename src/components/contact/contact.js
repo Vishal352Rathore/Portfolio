@@ -20,7 +20,7 @@ export default function Contact() {
             </p>
             <p className="text-secondary px-md-0 px-2">
               Inquiries via email at{" "}
-              <a href="mailto:santoshsingh74827@gmail.com">
+              <a href="mailto:vishal352rathore@gmail.com">
                 <u className="linkColor"> vishal352rathore@gmail.com </u>
               </a>{" "}
               or via socials below:.
@@ -28,25 +28,25 @@ export default function Contact() {
             <ul>
               <li className="pt-3">
                 Github-{" "}
-                <a className="linkColor" href="https://github.com/santosh214">
-                  https://github.com/santosh214
+                <a className="linkColor" href="https://github.com/Vishal352Rathore">
+                  https://github.com/Vishal352Rathore
                 </a>{" "}
               </li>
               <li className="pt-3">
                 Linkedin-{" "}
                 <a
                   className="linkColor"
-                  href="https://www.linkedin.com/in/santosh-singhh/"
+                  href="https://www.linkedin.com/in/vishal-rathore-229648149/"
                 >
-                  https://www.linkedin.com/in/santosh-singhh
+                  https://www.linkedin.com/in/vishal-rathore-229648149/
                 </a>{" "}
               </li>
-              <li className="pt-3">
+              {/* <li className="pt-3">
                 Telegram-{" "}
                 <a className="linkColor" href="https://t.me/MangoMan214">
                   https://t.me/MangoMan214
                 </a>{" "}
-              </li>
+              </li> */}
             </ul>
             <p className="pt-3 text-secondary">
               View my resume in{" "}

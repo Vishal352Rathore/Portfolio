@@ -1,17 +1,12 @@
-import Navbarnav from '../navbar/navbarnav'
-// import coderimg from '../../assets/mecoder.jpg'
 import coderimg from '../../assets/header.svg'
 import linkedin from '../../assets/socialicons/linkedin3.svg'
 import instagram from '../../assets/socialicons/instagram2.svg'
 import github from '../../assets/socialicons/github2.png'
-import { motion } from 'framer-motion'
 import Typewriter from "typewriter-effect";
-import { useState } from 'react'
 import "./home.css"
 
 function Home(props) {
 
-  const [Work, setWork] = useState("Front-End Developer");
   return (
     <div className='body container-fluid headerContainer'>
 
@@ -87,7 +82,7 @@ function Home(props) {
         </div>
         <div className='col'>
           <div className='img-wrapper'>
-            <img className="inner-img img-fluid" src={coderimg} />
+            <img className="inner-img img-fluid" src={coderimg} alt ="Coder"/>
           </div>
 
         </div>

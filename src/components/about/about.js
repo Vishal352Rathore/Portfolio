@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import {motion} from 'framer-motion'
 export default function About() {
   const technologies = [
     {
@@ -49,19 +48,9 @@ export default function About() {
       url: "https://www.typescriptlang.org/",
     },
     {
-      img: "tailwindcss",
-      name: "Tailwind CSS",
-      url: "https://tailwindcss.com/",
-    },
-    {
       img: "git",
       name: "Git",
       url: "https://git-scm.com/",
-    },
-    {
-      img: "heroku",
-      name: "Heroku",
-      url: "https://www.heroku.com/",
     },
     {
       img: "mysql",
